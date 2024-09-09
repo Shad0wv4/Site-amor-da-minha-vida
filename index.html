@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login para o Meu Coração</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./responsive/login.css">
+</head>
+<body>
+    <style>
+        .entrar {
+            padding: 15px;
+    width: 250px;
+    background: linear-gradient(90deg, #5b00f2, #D500E9);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: Poppins;
+    margin-left: 22px;
+    cursor: pointer;
+    text-decoration: none;
+
+        }
+
+    </style>
+    <div class="container">
+        <h1 style="font-weight: 800;">Login para o meu <br> Coração💜</h1>
+        <img src="../assets/love-is-in-the-air-animate.svg" alt="">
+        <form id="loginForm">
+            <input type="email" id="email" placeholder="User" required>
+            <input type="password" id="senha" placeholder="Senha" required>
+            <p id="error-message" class="error"></p>
+            <a href="#" class="forgot-password">Esqueceu a senha?</a>
+           <a type="submit" class="entrar" href="home.html">Entrar no meu coração</a>
+        </form>
+        
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
